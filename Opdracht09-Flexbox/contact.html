@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <br><input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Email: <br><input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label for="tel">Telefoonnummer</label> <br>
+            <input type="text" id="phone" name="phone" size="30">
+        </p>
+        <p>
+            <label> Geboortedatum: <br> <input type="date" /></label>
+        </p>
+        <p>
+            <label> Man/Vrouw: <br> <input type="radio" id="male" name="gender" value="male" /> </label>
+            <label> Man </label> <br>
+            <input type="radio" id="female" name="gender" value="female" /> </label>
+            <label> Vrouw </label>
+        </p>
+        <p>
+
+            <label> Favoriete keuken </label> <br>
+
+            <input type="checkbox" id="Franse" name="franse" value=frans>
+            <label for="Franse keuken"> Franse</label> <br>
+
+            <input type="checkbox" id="Italiaans" name="Italiaans" value=Italiaans>
+            <label for="Italiaans"> Italiaans</label> <br>
+
+            <input type="checkbox" id="Aziatische" name="Aziatische" value=Aziatisch>
+            <label for="Aziatische"> Aziatische</label> <br>
+
+            <input type="checkbox" id="Europees" name="Europees" value=Europees>
+            <label for="Europees"> Europees</label> <br>
+        </p>
+        <p> <label for="favcolor">Favoriete kleur schort:</label>
+            <input type="color" id="favcolor" name="favcolor">
+        </p>
+        <p>
+            <label for="text"> Biografie<br><textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <label for="myfile">Upload je favoriete recept:</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+        <p>
+            <label for="homepage">Voer hier je website in:</label>
+            <input type="url" id="homepage" name="homepage">
+        </p>
+        <p>
+            <button type="reset"> Reset </button>
+        </p>
+        <p>
+            <button type="submit">Verzenden</button>
+        </p>
+        <a href="index.html">Terug naar de index</a>
+    </form>
+</body>
+
+</html>

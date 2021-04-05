@@ -1,0 +1,44 @@
+.blogspot {
+    display: flex;
+    flex-direction: wrap;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+    text-align:center;
+}
+.blogpost01 {
+    width:300px; 
+    min-height:300px;
+    border:1px solid black;
+    margin: 20px;
+    flex-grow:20;   
+}
+.blogpost02 {
+    width:300px; 
+    min-height:200px;
+    border:1px solid black;
+    margin: 20px;
+    align-self:center;
+}
+.blogpost03 {
+    width:300px; 
+    min-height:200px;
+    border:1px solid black;
+    margin: 20px;
+}
+.blogpost04 {
+    width:300px; 
+    min-height:200px;
+    border:1px solid black;
+    margin: 20px;
+}
+.blogpost05 {
+    width:300px; 
+    min-height:200px;
+    border:1px solid black;
+    margin: 20px;
+}
+
+
+
+
